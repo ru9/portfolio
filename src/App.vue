@@ -29,8 +29,6 @@ export default {
   max-width: 100vw;
   overflow: hidden;
 }
-#app > div {
-}
 html body {
   max-width: 100vw;
   margin: 0;
