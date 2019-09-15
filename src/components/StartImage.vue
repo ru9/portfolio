@@ -1,8 +1,8 @@
 <template>
   <div class="outer-container">
-    <div class="square-shape"></div>
-    <div class="square-shape2"></div>
-    <div class="portrait-wrapper">
+    <div class="square-shape fade-in"></div>
+    <div class="square-shape2 fade-in"></div>
+    <div class="portrait-wrapper fade-in">
       <img alt="startimage" src="../assets/me_white_backround.png" class="start-image" />
     </div>
     <div class="opening-text-wrapper fade-in-left">
@@ -31,9 +31,10 @@ export default {};
 .portrait-wrapper {
   display: flex;
   justify-content: flex-end;
-  width: 100vh;
+  width: 100vw;
   height: 100vh;
   align-items: flex-end;
+  z-index: -1;
 }
 .start-image {
   display: flex;
@@ -49,8 +50,7 @@ export default {};
   left: 1rem;
 }
 .opening-text {
-  font-size: 2rem;
-  color: black;
+  font-size: 7.5vmin;
   padding: 0.5rem;
   text-align: left;
 }
@@ -62,27 +62,27 @@ export default {};
 * --Shapes--
 */
 .square-shape {
-  position: fixed;
-  height: 18rem;
-  width: 18rem;
+  position: absolute;
+  height: 40vh;
+  width: 40vh;
   transform: rotate(30deg);
   border-radius: 10%;
   background-color: #003459;
-  top: -100px;
-  right: -100px;
+  top: -15vh;
+  right: -15vh;
   background-image: none;
   display: inline-block;
   overflow: hidden;
 }
 .square-shape2 {
-  position: fixed;
-  height: 14rem;
-  width: 14rem;
+  position: absolute;
+  height: 30vh;
+  width: 30vh;
   transform: rotate(70deg);
   border-radius: 10%;
   background-color: #3a5d86;
-  top: 100px;
-  right: -150px;
+  top: 10vh;
+  right: -20vh;
   opacity: 0.95;
   background-image: none;
   display: inline-block;
@@ -92,7 +92,7 @@ export default {};
 /*
 * --Media--
 */
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 }
 
 /* 
@@ -111,6 +111,18 @@ export default {};
   100% {
     transform: translateX(0);
     opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) 100ms both;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: default;
   }
 }
 </style>

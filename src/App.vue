@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <StartImage />
+    <HeroAboutMe />
   </div>
 </template>
 
 <script>
 import StartImage from "./components/StartImage.vue";
+import HeroAboutMe from "./components/HeroAboutMe.vue";
 
 export default {
   name: "app",
   components: {
-    StartImage
+    StartImage,
+    HeroAboutMe
   }
 };
 </script>
@@ -21,10 +24,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   height: 100%;
   width: 100%;
   max-width: 100vw;
+  overflow: hidden;
+}
+#app > div {
 }
 html body {
   max-width: 100vw;
