@@ -20,7 +20,7 @@
 export default {};
 </script>
 
-<style scope>
+<style scoped>
 .outer-container {
   position: relative;
   display: flex;
@@ -53,6 +53,7 @@ export default {};
   font-size: 7.5vmin;
   padding: 0.5rem;
   text-align: left;
+  font-weight: 900;
 }
 .opening-text > a {
   color: #ff6f00;

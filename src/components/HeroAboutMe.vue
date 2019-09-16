@@ -2,16 +2,15 @@
   <div class="outer-container">
     <div class="background-shape">
       <div class="text-wrapper">
-        <h1>Title</h1>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-          been the industry's standard dummy text ever since the 1500s, when an unknown printer took
-          a galley of type and scrambled it to make a type specimen book. It has survived not only five
-          centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        <p class="bolder">
+          Det kan kanskje være overveldende å tenke på hvor mye arbeid
+          som skal til for å bygge et hus. På lik linje å ta del i den digitale hverdagen.
         </p>
-        <q>Something something really smart</q>
+        <p>
+          Du vil selfølgelig være aktuell. Men terskelen har blitt litt for høy, og du trenger noen til
+          å ta de rette besluttningene som gir resultatene du ønsker.
+        </p>
+        <p>Enten om du trenger en full løsning eller bare en webside, så er vi her for å hjelpe akkuratt deg.</p>
       </div>
     </div>
   </div>
@@ -24,8 +23,17 @@ export default {};
 <style scoped>
 .text-wrapper {
   transform: rotate(3deg);
+  max-width: 90vw;
+  padding: 2rem 0 2rem 0;
+}
+.text-wrapper > p {
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   color: white;
-  padding: 5rem 2rem 5rem 2rem;
+  text-indent: 0.5rem;
+  text-align: left;
+}
+.bolder {
+  font-size: 1.5rem;
 }
 
 /* 
@@ -38,8 +46,6 @@ export default {};
   position: relative;
   transform: rotate(-3deg) scale(1.1);
   background-color: #3a5d86;
-  max-width: 100%;
-  background-image: none;
-  display: inline-block;
+  min-width: 110vw;
 }
 </style>

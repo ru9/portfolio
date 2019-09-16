@@ -20,7 +20,8 @@ export default {
 
 <style>
 #app {
-  font-family: "Cardo", serif;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -40,7 +41,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
+  font-weight: 500;
 }
 </style>
