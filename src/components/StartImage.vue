@@ -71,9 +71,6 @@ export default {};
   background-color: #003459;
   top: -15vh;
   right: -15vh;
-  background-image: none;
-  display: inline-block;
-  overflow: hidden;
 }
 .square-shape2 {
   position: absolute;
@@ -85,9 +82,6 @@ export default {};
   top: 10vh;
   right: -20vh;
   opacity: 0.95;
-  background-image: none;
-  display: inline-block;
-  overflow: hidden;
 }
 
 /*

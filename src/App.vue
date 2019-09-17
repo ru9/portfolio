@@ -2,18 +2,21 @@
   <div id="app">
     <StartImage />
     <HeroAboutMe />
+    <SquareImagesOnLine />
   </div>
 </template>
 
 <script>
 import StartImage from "./components/StartImage.vue";
 import HeroAboutMe from "./components/HeroAboutMe.vue";
+import SquareImagesOnLine from "./components/SquareImagesOnLine.vue";
 
 export default {
   name: "app",
   components: {
     StartImage,
-    HeroAboutMe
+    HeroAboutMe,
+    SquareImagesOnLine
   }
 };
 </script>

@@ -22,9 +22,11 @@ export default {};
 
 <style scoped>
 .text-wrapper {
-  transform: rotate(3deg);
+  position: relative;
+  left: -3.5%;
+  transform: rotate(3deg) scale(0.9);
   max-width: 90vw;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 1rem;
 }
 .text-wrapper > p {
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
