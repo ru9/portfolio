@@ -3,6 +3,7 @@
     <StartImage />
     <HeroAboutMe />
     <SquareImagesOnLine />
+    <Footer />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import StartImage from "./components/StartImage.vue";
 import HeroAboutMe from "./components/HeroAboutMe.vue";
 import SquareImagesOnLine from "./components/SquareImagesOnLine.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "app",
   components: {
     StartImage,
     HeroAboutMe,
-    SquareImagesOnLine
+    SquareImagesOnLine,
+    Footer
   }
 };
 </script>
