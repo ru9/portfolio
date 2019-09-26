@@ -3,6 +3,8 @@
     <StartImage />
     <HeroAboutMe />
     <SquareImagesOnLine />
+    <ServiceCardCollection />
+    <ContactForm />
     <Footer />
   </div>
 </template>
@@ -11,6 +13,8 @@
 import StartImage from "./components/StartImage.vue";
 import HeroAboutMe from "./components/HeroAboutMe.vue";
 import SquareImagesOnLine from "./components/SquareImagesOnLine.vue";
+import ServiceCardCollection from "./components/ServiceCardCollection.vue";
+import ContactForm from "./components/ContactForm.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -19,7 +23,9 @@ export default {
     StartImage,
     HeroAboutMe,
     SquareImagesOnLine,
-    Footer
+    Footer,
+    ServiceCardCollection,
+    ContactForm
   }
 };
 </script>

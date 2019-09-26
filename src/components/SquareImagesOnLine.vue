@@ -24,6 +24,7 @@ export default {};
   display: flex;
   flex-flow: row wrap;
   margin: 4rem 0;
+  overflow-y: scroll;
 }
 .outer-container > div {
   max-width: 50vw;
