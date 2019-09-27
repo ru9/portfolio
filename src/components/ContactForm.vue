@@ -13,7 +13,7 @@
         <input type="email" name="email" placeholder="Email" />
       </div>
       <div>
-        <label>
+        <label name="tst">
           Your level:
           <select type="select" name="options[]" data-label="Options">
             <option selected="Hvordan fant du oss?" value>Hvordan fant du oss?</option>
