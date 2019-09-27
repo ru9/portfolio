@@ -13,6 +13,15 @@
         <input type="email" name="email" placeholder="Email" />
       </div>
       <div>
+        <select name="options" data-label="Options" tabindex="5">
+          <option selected="selected" value>Hvordan fant du oss?</option>
+          <option value>Fra en venn</option>
+          <option value>Søk i google</option>
+          <option value>Jeg er tidligere kunde</option>
+          <option value>Gjennom reklame</option>
+        </select>
+      </div>
+      <div>
         <textarea name="message" placeholder="Melding"></textarea>
       </div>
       <div>
@@ -31,7 +40,8 @@ export default {};
   margin: 4rem 0;
 }
 input,
-textarea {
+textarea,
+select {
   padding: 1rem;
   background-color: #ff6f002f;
   font-size: 1rem;
