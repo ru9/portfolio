@@ -4,16 +4,16 @@
       <input type="hidden" name="form-name" value="contact" />
       <input name="bot-field" hidden />
       <div>
-        <input type="text" name="firstname" placeholder="Fornavn" id="name" />
+        <input type="text" name="firstname" placeholder="Fornavn" />
       </div>
       <div>
         <input type="text" name="lastname" placeholder="Etternavn" />
       </div>
       <div>
-        <input type="email" name="email" placeholder="Email" id="email" />
+        <input type="email" name="email" placeholder="Email" />
       </div>
       <div>
-        <textarea name="message" placeholder="Melding" id="message"></textarea>
+        <textarea name="message" placeholder="Melding"></textarea>
       </div>
       <div>
         <input type="submit" value="Send message" />
