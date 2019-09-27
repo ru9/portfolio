@@ -13,7 +13,7 @@
         <input type="email" name="email" placeholder="Email" />
       </div>
       <div>
-        <select name="options" data-label="Options" tabindex="5">
+        <select name="options[]" multiple data-label="Options" tabindex="5">
           <option selected="selected" value>Hvordan fant du oss?</option>
           <option value>Fra en venn</option>
           <option value>Søk i google</option>
