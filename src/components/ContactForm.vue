@@ -15,7 +15,7 @@
       <div>
         <label>
           Your level:
-          <select name="options[]">
+          <select type="select" name="options[]" data-label="Options">
             <option selected="Hvordan fant du oss?" value>Hvordan fant du oss?</option>
             <option value="fra-en-venn">Fra en venn</option>
             <option value="søk-i-google">Søk i google</option>
