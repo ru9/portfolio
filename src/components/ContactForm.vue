@@ -1,7 +1,7 @@
 <template>
   <div>
     <form name="contact-tst" action="/thank-you" netlify-honeypot="bot-field" method="post" netlify>
-      <input type="hidden" name="form-name" value="contact-tstst" />
+      <input type="hidden" name="form-name" value="contact-tst" />
       <input name="bot-field" hidden />
       <div>
         <input type="text" name="firstname" placeholder="Fornavn" />
