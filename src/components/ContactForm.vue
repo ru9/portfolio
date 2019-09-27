@@ -13,27 +13,13 @@
         <input type="email" name="email" placeholder="Email" />
       </div>
       <div>
-        <input type="text" name="upside" placeholder="upside" />
-      </div>
-      <p>
-        <label>
-          Your Role:
-          <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select>
-        </label>
-      </p>
-      <div>
-        <label>
-          Your level:
-          <select name="roles[]" multiple>
-            <option value="fra-en-venn">Fra en venn</option>
-            <option value="søk-i-google">Søk i google</option>
-            <option value="jeg-er-tidligere-kunde">Jeg er tidligere kunde</option>
-            <option value="Gjennom-reklame">Gjennom reklame</option>
-          </select>
-        </label>
+        <select type="select" name="options[]" data-label="Options">
+          <option selected="Hvordan fant du oss?" value>Hvordan fant du oss?</option>
+          <option value="fra-en-venn">Fra en venn</option>
+          <option value="søk-i-google">Søk i google</option>
+          <option value="jeg-er-tidligere-kunde">Jeg er tidligere kunde</option>
+          <option value="Gjennom-reklame">Gjennom reklame</option>
+        </select>
       </div>
       <div>
         <textarea name="message" placeholder="Melding"></textarea>
