@@ -12,6 +12,9 @@
       <div>
         <input type="email" name="email" placeholder="Email" />
       </div>
+      <div>
+        <input type="text" name="upside" placeholder="upside" />
+      </div>
       <p>
         <label>
           Your Role:
