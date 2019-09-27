@@ -13,12 +13,12 @@
         <input type="email" name="email" placeholder="Email" />
       </div>
       <div>
-        <select name="options" tabindex="5">
-          <option selected="selected" value>Hvordan fant du oss?</option>
-          <option value="Fra en venn">Fra en venn</option>
-          <option value="Søk i google">Søk i google</option>
-          <option value="Jeg er tidligere kunde">Jeg er tidligere kunde</option>
-          <option value="Gjennom reklame">Gjennom reklame</option>
+        <select type="text" name="options" data-label="Options">
+          <option selected="Hvordan fant du oss?" value>Hvordan fant du oss?</option>
+          <option value="fra-en-venn">Fra en venn</option>
+          <option value="søk-i-google">Søk i google</option>
+          <option value="jeg-er-tidligere-kunde">Jeg er tidligere kunde</option>
+          <option value="Gjennom-reklame">Gjennom reklame</option>
         </select>
       </div>
       <div>
