@@ -2,7 +2,7 @@
   <div class="outer-container">
     <form name="contact" method="POST" data-netlify="true">
       <div>
-        <input type="text" name="name" placeholder="Fornavn" />
+        <input type="text" name="firstname" placeholder="Fornavn" />
       </div>
       <div>
         <input type="text" name="lastname" placeholder="Etternavn" />
@@ -12,6 +12,9 @@
       </div>
       <div>
         <textarea name="message" placeholder="Melding"></textarea>
+      </div>
+      <div>
+        <button type="submit">Send</button>
       </div>
     </form>
   </div>
