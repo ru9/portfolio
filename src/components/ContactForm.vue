@@ -3,16 +3,16 @@
     <form name="contact" action="/thank-you" netlify-honeypot="bot-field" method="post" netlify>
       <input name="bot-field" hidden />
       <div>
-        <input type="text" name="firstname" placeholder="Fornavn" />
+        <input type="text" name="firstname" placeholder="Fornavn" id="name" />
       </div>
       <div>
         <input type="text" name="lastname" placeholder="Etternavn" />
       </div>
       <div>
-        <input type="email" name="email" placeholder="Email" />
+        <input type="email" name="email" placeholder="Email" id="email" />
       </div>
       <div>
-        <textarea name="message" placeholder="Melding"></textarea>
+        <textarea name="message" placeholder="Melding" id="message"></textarea>
       </div>
       <div>
         <input type="submit" value="Send message" />
