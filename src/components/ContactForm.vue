@@ -13,10 +13,9 @@
         <input type="email" name="email" placeholder="Email" />
       </div>
       <div>
-        <label name="tst">
+        <label>
           Your level:
-          <select type="select" name="options[]" data-label="Options">
-            <option selected="Hvordan fant du oss?" value>Hvordan fant du oss?</option>
+          <select name="role[]" multiple>
             <option value="fra-en-venn">Fra en venn</option>
             <option value="søk-i-google">Søk i google</option>
             <option value="jeg-er-tidligere-kunde">Jeg er tidligere kunde</option>
