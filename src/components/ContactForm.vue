@@ -12,10 +12,19 @@
       <div>
         <input type="email" name="email" placeholder="Email" />
       </div>
+      <p>
+        <label>
+          Your Role:
+          <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select>
+        </label>
+      </p>
       <div>
         <label>
           Your level:
-          <select name="role[]" multiple>
+          <select name="roles[]" multiple>
             <option value="fra-en-venn">Fra en venn</option>
             <option value="søk-i-google">Søk i google</option>
             <option value="jeg-er-tidligere-kunde">Jeg er tidligere kunde</option>
