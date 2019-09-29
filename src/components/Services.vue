@@ -1,7 +1,7 @@
 <template>
   <div class="outer-container">
     <div class="service-wrapper">
-      <img src="..\assets\Seo\Website Optimization.svg" alt />
+      <img src="..\assets\Seo\Website_Optimization.svg" alt />
       <div>
         <div class="title">Skreddersydd</div>
         <div
@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="service-wrapper">
-      <img src="..\assets\Seo\Keywords & Rankings.svg" alt />
+      <img src="..\assets\Seo\Keywords_Rankings.svg" alt />
       <div>
         <div class="title">Resultatdrevet</div>
         <div
@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="service-wrapper">
-      <img src="..\assets\Seo\Social Media Marketing.svg" alt />
+      <img src="..\assets\Seo\Social_Media_Marketing.svg" alt />
       <div>
         <div class="title">Grunnmuren</div>
         <div
