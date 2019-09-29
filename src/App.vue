@@ -2,6 +2,7 @@
   <div id="app">
     <StartImage />
     <HeroAboutMe />
+    <Services />
     <SquareImagesOnLine />
     <ServiceCardCollection />
     <ContactForm />
@@ -16,6 +17,7 @@ import SquareImagesOnLine from "./components/SquareImagesOnLine.vue";
 import ServiceCardCollection from "./components/ServiceCardCollection.vue";
 import ContactForm from "./components/ContactForm.vue";
 import Footer from "./components/Footer.vue";
+import Services from "./components/Services.vue";
 
 export default {
   name: "app",
@@ -25,7 +27,8 @@ export default {
     SquareImagesOnLine,
     Footer,
     ServiceCardCollection,
-    ContactForm
+    ContactForm,
+    Services
   }
 };
 </script>

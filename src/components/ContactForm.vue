@@ -50,16 +50,9 @@ form {
   margin: 0 auto;
   width: 80vw;
 }
-select option {
-  color: rgb(255, 255, 255);
-}
-select option:first-child {
-  color: #ffffff;
-}
 input,
 textarea,
 select {
-  font-style: italic;
   width: 100%;
   padding: 0.9rem 1rem;
   margin: 0.5rem 0;
@@ -74,9 +67,7 @@ textarea {
 }
 ::placeholder {
   color: white;
-}
-.first-selected {
-  color: white;
+  font-style: italic;
 }
 form > div {
   width: 80vw;
@@ -85,9 +76,6 @@ form > div {
 }
 .not-italic {
   font-style: normal;
-}
-.italic {
-  font-style: italic;
 }
 .send-button {
   background-color: #ff6f00;

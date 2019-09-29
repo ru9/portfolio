@@ -1,16 +1,16 @@
 <template>
   <div class="outer-container">
     <div>
-      <img src="../assets/project_1.svg" alt />
+      <img src="../assets/tst.png" alt />
     </div>
     <div>
-      <img src="../assets/project_2.svg" alt />
+      <img src="../assets/tst.png" alt />
     </div>
     <div>
-      <img src="../assets/project_3.svg" alt />
+      <img src="../assets/tst.png" alt />
     </div>
     <div>
-      <img src="../assets/project_4.svg" alt />
+      <img src="../assets/tst.png" alt />
     </div>
   </div>
 </template>
@@ -24,7 +24,6 @@ export default {};
   display: flex;
   flex-flow: row wrap;
   margin: 4rem 0;
-  overflow-y: scroll;
 }
 .outer-container > div {
   max-width: 50vw;
